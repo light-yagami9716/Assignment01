@@ -49,3 +49,33 @@ body {
 .btn-register:hover {
     background-color: #1d4ed8;
 }
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./assets/banner.jpg") center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    max-width: 700px;
+}
+
+.banner-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 22px;
+}
+
+.banner-text {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #d1d5db;
+}
